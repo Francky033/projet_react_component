@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ProfileMenu() {
     const profile = {
       firstname: "David",
@@ -5,8 +7,9 @@ function ProfileMenu() {
     };
   
     return (
-      <li>
-        {profile.firstname} {profile.lastname}
+      <li><Link to = "/profile"> {profile.firstname} {profile.lastname}</Link>
+       
+
       </li>
     );
   }

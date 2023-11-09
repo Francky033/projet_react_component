@@ -60,6 +60,7 @@ footer{
 h2 {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 } 
 
 /* .flex-center{
@@ -70,9 +71,19 @@ h2 {
 
 main{
   background-color:tomato;
-}
-header{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1{
+  display: flex;
   justify-content: center;
+}
+ul li{
+  border: solid;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
 }

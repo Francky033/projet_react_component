@@ -1,5 +1,5 @@
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function Home() {
   const articles = [
@@ -64,25 +64,11 @@ function Home() {
     },
   ];
 
-  const publishedArticles = articles.filter((article) => {
-    return article.isPublished === true;
-  });
-
-  const lastThreePublishedArticles = publishedArticles.slice(-3);
-
   return (
     <>
       <Header />
       <main>
-        <h2>Les trois derniers articles : </h2>
-        {lastThreePublishedArticles.map((article) => {
-          return (
-            <article>
-              <h2>{article.title}</h2>
-              <h3>{article.price}e</h3>
-            </article>
-          );
-        })}
+        <img src="https://th.bing.com/th/id/R.99489b807ef36a2e783a1568c41c0923?rik=oDwP3BEQzwkMhw&riu=http%3a%2f%2fwww.maximumwall.com%2fwp-content%2fuploads%2f2015%2f09%2ffonds-ecran-animaux-droles-15.jpg&ehk=37tufk1A1iay0MaP%2bvELiTF66sxVvOvSDKcb3b6iE6s%3d&risl=&pid=ImgRaw&r=0"></img>
       </main>
       <Footer />
     </>

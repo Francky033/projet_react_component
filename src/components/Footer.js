@@ -1,8 +1,8 @@
 function Footer() {
     return(
-        <footer className="flex-center">
+        <footer>
             Petit tout petit Poney
             </footer>
     )
 }
-export default Footer
+export default Footer;
