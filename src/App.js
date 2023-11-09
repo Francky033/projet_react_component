@@ -2,7 +2,7 @@
 import Header from "./Header";
 import Home from "./Home";
 import Footer from "./Footer";
-import './App.css'
+import './App.scss'
 
 function App() {
   return (

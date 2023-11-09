@@ -37,20 +37,14 @@
   }
 }
 
-img {
-width: 20rem;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-}
 
-main{
+ article{ 
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  flex-direction: column;
 }
 
-h3{
+ h3 {
   display: flex;
   justify-content: center;
 }
@@ -58,5 +52,27 @@ h3{
 footer{
   display: flex;
   justify-content: center;
+  background-color: aqua;
+
+  
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+} 
+
+/* .flex-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+} */
+
+main{
+  background-color:tomato;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
